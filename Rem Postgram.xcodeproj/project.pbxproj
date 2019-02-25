@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2812FD86222499F000F40444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FD85222499F000F40444 /* AppDelegate.swift */; };
+		2812FD88222499F000F40444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FD87222499F000F40444 /* ViewController.swift */; };
+		2812FD8B222499F000F40444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812FD89222499F000F40444 /* Main.storyboard */; };
+		2812FD8D222499F500F40444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2812FD8C222499F500F40444 /* Assets.xcassets */; };
+		2812FD90222499F500F40444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812FD8E222499F500F40444 /* LaunchScreen.storyboard */; };
+		2812FD9B222499F500F40444 /* Rem_PostgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FD9A222499F500F40444 /* Rem_PostgramTests.swift */; };
+		2812FDA6222499F500F40444 /* Rem_PostgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDA5222499F500F40444 /* Rem_PostgramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2812FD97222499F500F40444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2812FD7A222499F000F40444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2812FD81222499F000F40444;
+			remoteInfo = "Rem Postgram";
+		};
+		2812FDA2222499F500F40444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2812FD7A222499F000F40444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2812FD81222499F000F40444;
+			remoteInfo = "Rem Postgram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2812FD82222499F000F40444 /* Rem Postgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rem Postgram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812FD85222499F000F40444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2812FD87222499F000F40444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2812FD8A222499F000F40444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2812FD8C222499F500F40444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2812FD8F222499F500F40444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2812FD91222499F500F40444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812FD96222499F500F40444 /* Rem PostgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rem PostgramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812FD9A222499F500F40444 /* Rem_PostgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rem_PostgramTests.swift; sourceTree = "<group>"; };
+		2812FD9C222499F500F40444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812FDA1222499F500F40444 /* Rem PostgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rem PostgramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812FDA5222499F500F40444 /* Rem_PostgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rem_PostgramUITests.swift; sourceTree = "<group>"; };
+		2812FDA7222499F500F40444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2812FD7F222499F000F40444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FD93222499F500F40444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FD9E222499F500F40444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2812FD79222499F000F40444 = {
+			isa = PBXGroup;
+			children = (
+				2812FD84222499F000F40444 /* Rem Postgram */,
+				2812FD99222499F500F40444 /* Rem PostgramTests */,
+				2812FDA4222499F500F40444 /* Rem PostgramUITests */,
+				2812FD83222499F000F40444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2812FD83222499F000F40444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2812FD82222499F000F40444 /* Rem Postgram.app */,
+				2812FD96222499F500F40444 /* Rem PostgramTests.xctest */,
+				2812FDA1222499F500F40444 /* Rem PostgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2812FD84222499F000F40444 /* Rem Postgram */ = {
+			isa = PBXGroup;
+			children = (
+				2812FD85222499F000F40444 /* AppDelegate.swift */,
+				2812FD87222499F000F40444 /* ViewController.swift */,
+				2812FD89222499F000F40444 /* Main.storyboard */,
+				2812FD8C222499F500F40444 /* Assets.xcassets */,
+				2812FD8E222499F500F40444 /* LaunchScreen.storyboard */,
+				2812FD91222499F500F40444 /* Info.plist */,
+			);
+			path = "Rem Postgram";
+			sourceTree = "<group>";
+		};
+		2812FD99222499F500F40444 /* Rem PostgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2812FD9A222499F500F40444 /* Rem_PostgramTests.swift */,
+				2812FD9C222499F500F40444 /* Info.plist */,
+			);
+			path = "Rem PostgramTests";
+			sourceTree = "<group>";
+		};
+		2812FDA4222499F500F40444 /* Rem PostgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2812FDA5222499F500F40444 /* Rem_PostgramUITests.swift */,
+				2812FDA7222499F500F40444 /* Info.plist */,
+			);
+			path = "Rem PostgramUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2812FD81222499F000F40444 /* Rem Postgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812FDAA222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem Postgram" */;
+			buildPhases = (
+				2812FD7E222499F000F40444 /* Sources */,
+				2812FD7F222499F000F40444 /* Frameworks */,
+				2812FD80222499F000F40444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rem Postgram";
+			productName = "Rem Postgram";
+			productReference = 2812FD82222499F000F40444 /* Rem Postgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2812FD95222499F500F40444 /* Rem PostgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812FDAD222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem PostgramTests" */;
+			buildPhases = (
+				2812FD92222499F500F40444 /* Sources */,
+				2812FD93222499F500F40444 /* Frameworks */,
+				2812FD94222499F500F40444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2812FD98222499F500F40444 /* PBXTargetDependency */,
+			);
+			name = "Rem PostgramTests";
+			productName = "Rem PostgramTests";
+			productReference = 2812FD96222499F500F40444 /* Rem PostgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2812FDA0222499F500F40444 /* Rem PostgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812FDB0222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem PostgramUITests" */;
+			buildPhases = (
+				2812FD9D222499F500F40444 /* Sources */,
+				2812FD9E222499F500F40444 /* Frameworks */,
+				2812FD9F222499F500F40444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2812FDA3222499F500F40444 /* PBXTargetDependency */,
+			);
+			name = "Rem PostgramUITests";
+			productName = "Rem PostgramUITests";
+			productReference = 2812FDA1222499F500F40444 /* Rem PostgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2812FD7A222499F000F40444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Remberto;
+				TargetAttributes = {
+					2812FD81222499F000F40444 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2812FD95222499F500F40444 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2812FD81222499F000F40444;
+					};
+					2812FDA0222499F500F40444 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2812FD81222499F000F40444;
+					};
+				};
+			};
+			buildConfigurationList = 2812FD7D222499F000F40444 /* Build configuration list for PBXProject "Rem Postgram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2812FD79222499F000F40444;
+			productRefGroup = 2812FD83222499F000F40444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2812FD81222499F000F40444 /* Rem Postgram */,
+				2812FD95222499F500F40444 /* Rem PostgramTests */,
+				2812FDA0222499F500F40444 /* Rem PostgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2812FD80222499F000F40444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FD90222499F500F40444 /* LaunchScreen.storyboard in Resources */,
+				2812FD8D222499F500F40444 /* Assets.xcassets in Resources */,
+				2812FD8B222499F000F40444 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FD94222499F500F40444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FD9F222499F500F40444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2812FD7E222499F000F40444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FD88222499F000F40444 /* ViewController.swift in Sources */,
+				2812FD86222499F000F40444 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FD92222499F500F40444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FD9B222499F500F40444 /* Rem_PostgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FD9D222499F500F40444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FDA6222499F500F40444 /* Rem_PostgramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2812FD98222499F500F40444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2812FD81222499F000F40444 /* Rem Postgram */;
+			targetProxy = 2812FD97222499F500F40444 /* PBXContainerItemProxy */;
+		};
+		2812FDA3222499F500F40444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2812FD81222499F000F40444 /* Rem Postgram */;
+			targetProxy = 2812FDA2222499F500F40444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2812FD89222499F000F40444 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2812FD8A222499F000F40444 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2812FD8E222499F500F40444 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2812FD8F222499F500F40444 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2812FDA8222499F500F40444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2812FDA9222499F500F40444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2812FDAB222499F500F40444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KS89M4CWF;
+				INFOPLIST_FILE = "Rem Postgram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rjnl.Rem-Postgram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2812FDAC222499F500F40444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KS89M4CWF;
+				INFOPLIST_FILE = "Rem Postgram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rjnl.Rem-Postgram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2812FDAE222499F500F40444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KS89M4CWF;
+				INFOPLIST_FILE = "Rem PostgramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rjnl.Rem-PostgramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rem Postgram.app/Rem Postgram";
+			};
+			name = Debug;
+		};
+		2812FDAF222499F500F40444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KS89M4CWF;
+				INFOPLIST_FILE = "Rem PostgramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rjnl.Rem-PostgramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rem Postgram.app/Rem Postgram";
+			};
+			name = Release;
+		};
+		2812FDB1222499F500F40444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KS89M4CWF;
+				INFOPLIST_FILE = "Rem PostgramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rjnl.Rem-PostgramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rem Postgram";
+			};
+			name = Debug;
+		};
+		2812FDB2222499F500F40444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KS89M4CWF;
+				INFOPLIST_FILE = "Rem PostgramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rjnl.Rem-PostgramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rem Postgram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2812FD7D222499F000F40444 /* Build configuration list for PBXProject "Rem Postgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FDA8222499F500F40444 /* Debug */,
+				2812FDA9222499F500F40444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812FDAA222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem Postgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FDAB222499F500F40444 /* Debug */,
+				2812FDAC222499F500F40444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812FDAD222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem PostgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FDAE222499F500F40444 /* Debug */,
+				2812FDAF222499F500F40444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812FDB0222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem PostgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FDB1222499F500F40444 /* Debug */,
+				2812FDB2222499F500F40444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2812FD7A222499F000F40444 /* Project object */;
+}
