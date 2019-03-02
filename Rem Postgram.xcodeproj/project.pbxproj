@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2812FD86222499F000F40444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FD85222499F000F40444 /* AppDelegate.swift */; };
-		2812FD88222499F000F40444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FD87222499F000F40444 /* ViewController.swift */; };
 		2812FD8B222499F000F40444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812FD89222499F000F40444 /* Main.storyboard */; };
 		2812FD8D222499F500F40444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2812FD8C222499F500F40444 /* Assets.xcassets */; };
 		2812FD90222499F500F40444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812FD8E222499F500F40444 /* LaunchScreen.storyboard */; };
 		2812FD9B222499F500F40444 /* Rem_PostgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FD9A222499F500F40444 /* Rem_PostgramTests.swift */; };
 		2812FDA6222499F500F40444 /* Rem_PostgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDA5222499F500F40444 /* Rem_PostgramUITests.swift */; };
+		2812FDB42224A90700F40444 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDB32224A90700F40444 /* LoginViewController.swift */; };
+		2812FDB62224A92200F40444 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDB52224A92200F40444 /* FeedViewController.swift */; };
+		2812FDB82224BF4300F40444 /* CamaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDB72224BF4300F40444 /* CamaraViewController.swift */; };
+		2819EC4322274BD100EBE660 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819EC4222274BD100EBE660 /* PostCell.swift */; };
+		38107AA4E7405A0B6A5AFB45 /* Pods_Rem_PostgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91F9101FC8117B6EF2C7F04 /* Pods_Rem_PostgramUITests.framework */; };
+		9380E6E8972F7C02CEE4D6AF /* Pods_Rem_Postgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1E4FB80D175F75CA1584D5 /* Pods_Rem_Postgram.framework */; };
+		DCB9CEC3220565AE58ACBC99 /* Pods_Rem_PostgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C12058950F069B37DC80E97 /* Pods_Rem_PostgramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06AE6BF1C3BB6B3DB9ACD6F8 /* Pods-Rem Postgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem Postgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rem Postgram/Pods-Rem Postgram.debug.xcconfig"; sourceTree = "<group>"; };
 		2812FD82222499F000F40444 /* Rem Postgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rem Postgram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2812FD85222499F000F40444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2812FD87222499F000F40444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2812FD8A222499F000F40444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2812FD8C222499F500F40444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2812FD8F222499F500F40444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,18 @@
 		2812FDA1222499F500F40444 /* Rem PostgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rem PostgramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2812FDA5222499F500F40444 /* Rem_PostgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rem_PostgramUITests.swift; sourceTree = "<group>"; };
 		2812FDA7222499F500F40444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812FDB32224A90700F40444 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2812FDB52224A92200F40444 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2812FDB72224BF4300F40444 /* CamaraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraViewController.swift; sourceTree = "<group>"; };
+		2819EC4222274BD100EBE660 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2B1E4FB80D175F75CA1584D5 /* Pods_Rem_Postgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_Postgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDD2187C33B2B5BDDD9A2CB /* Pods-Rem PostgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem PostgramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rem PostgramUITests/Pods-Rem PostgramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64040ECB2827CAA2B9EDAAF8 /* Pods-Rem PostgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem PostgramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rem PostgramTests/Pods-Rem PostgramTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B30E8AD18190E997F243B92 /* Pods-Rem Postgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem Postgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rem Postgram/Pods-Rem Postgram.release.xcconfig"; sourceTree = "<group>"; };
+		8C12058950F069B37DC80E97 /* Pods_Rem_PostgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_PostgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F9101FC8117B6EF2C7F04 /* Pods_Rem_PostgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_PostgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D501EF5FA79782BE96062C71 /* Pods-Rem PostgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem PostgramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rem PostgramUITests/Pods-Rem PostgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC3584F7DC05F2C878A7544 /* Pods-Rem PostgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem PostgramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rem PostgramTests/Pods-Rem PostgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9380E6E8972F7C02CEE4D6AF /* Pods_Rem_Postgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB9CEC3220565AE58ACBC99 /* Pods_Rem_PostgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38107AA4E7405A0B6A5AFB45 /* Pods_Rem_PostgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				2812FD99222499F500F40444 /* Rem PostgramTests */,
 				2812FDA4222499F500F40444 /* Rem PostgramUITests */,
 				2812FD83222499F000F40444 /* Products */,
+				BAC15A0E7992B05A454990E1 /* Pods */,
+				9787DF5B1CD11AC67566F611 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				2812FD85222499F000F40444 /* AppDelegate.swift */,
-				2812FD87222499F000F40444 /* ViewController.swift */,
 				2812FD89222499F000F40444 /* Main.storyboard */,
 				2812FD8C222499F500F40444 /* Assets.xcassets */,
 				2812FD8E222499F500F40444 /* LaunchScreen.storyboard */,
 				2812FD91222499F500F40444 /* Info.plist */,
+				2812FDB32224A90700F40444 /* LoginViewController.swift */,
+				2812FDB52224A92200F40444 /* FeedViewController.swift */,
+				2812FDB72224BF4300F40444 /* CamaraViewController.swift */,
+				2819EC4222274BD100EBE660 /* PostCell.swift */,
 			);
 			path = "Rem Postgram";
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = "Rem PostgramUITests";
 			sourceTree = "<group>";
 		};
+		9787DF5B1CD11AC67566F611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1E4FB80D175F75CA1584D5 /* Pods_Rem_Postgram.framework */,
+				8C12058950F069B37DC80E97 /* Pods_Rem_PostgramTests.framework */,
+				A91F9101FC8117B6EF2C7F04 /* Pods_Rem_PostgramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC15A0E7992B05A454990E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06AE6BF1C3BB6B3DB9ACD6F8 /* Pods-Rem Postgram.debug.xcconfig */,
+				8B30E8AD18190E997F243B92 /* Pods-Rem Postgram.release.xcconfig */,
+				FEC3584F7DC05F2C878A7544 /* Pods-Rem PostgramTests.debug.xcconfig */,
+				64040ECB2827CAA2B9EDAAF8 /* Pods-Rem PostgramTests.release.xcconfig */,
+				D501EF5FA79782BE96062C71 /* Pods-Rem PostgramUITests.debug.xcconfig */,
+				4DDD2187C33B2B5BDDD9A2CB /* Pods-Rem PostgramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2812FDAA222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem Postgram" */;
 			buildPhases = (
+				228FFF30E58A23B99292DAFA /* [CP] Check Pods Manifest.lock */,
 				2812FD7E222499F000F40444 /* Sources */,
 				2812FD7F222499F000F40444 /* Frameworks */,
 				2812FD80222499F000F40444 /* Resources */,
+				9910131A4B97EEB402A2C985 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2812FDAD222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem PostgramTests" */;
 			buildPhases = (
+				48AC02F18C804A43B058B98C /* [CP] Check Pods Manifest.lock */,
 				2812FD92222499F500F40444 /* Sources */,
 				2812FD93222499F500F40444 /* Frameworks */,
 				2812FD94222499F500F40444 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2812FDB0222499F500F40444 /* Build configuration list for PBXNativeTarget "Rem PostgramUITests" */;
 			buildPhases = (
+				C8B6D70301308C81C6A53E0F /* [CP] Check Pods Manifest.lock */,
 				2812FD9D222499F500F40444 /* Sources */,
 				2812FD9E222499F500F40444 /* Frameworks */,
 				2812FD9F222499F500F40444 /* Resources */,
@@ -251,13 +304,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		228FFF30E58A23B99292DAFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rem Postgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48AC02F18C804A43B058B98C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rem PostgramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9910131A4B97EEB402A2C985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rem Postgram/Pods-Rem Postgram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rem Postgram/Pods-Rem Postgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B6D70301308C81C6A53E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rem PostgramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2812FD7E222499F000F40444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2812FD88222499F000F40444 /* ViewController.swift in Sources */,
+				2812FDB42224A90700F40444 /* LoginViewController.swift in Sources */,
+				2812FDB82224BF4300F40444 /* CamaraViewController.swift in Sources */,
+				2812FDB62224A92200F40444 /* FeedViewController.swift in Sources */,
 				2812FD86222499F000F40444 /* AppDelegate.swift in Sources */,
+				2819EC4322274BD100EBE660 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +583,7 @@
 		};
 		2812FDAB222499F500F40444 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06AE6BF1C3BB6B3DB9ACD6F8 /* Pods-Rem Postgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +602,7 @@
 		};
 		2812FDAC222499F500F40444 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B30E8AD18190E997F243B92 /* Pods-Rem Postgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +621,7 @@
 		};
 		2812FDAE222499F500F40444 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC3584F7DC05F2C878A7544 /* Pods-Rem PostgramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +643,7 @@
 		};
 		2812FDAF222499F500F40444 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64040ECB2827CAA2B9EDAAF8 /* Pods-Rem PostgramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +665,7 @@
 		};
 		2812FDB1222499F500F40444 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D501EF5FA79782BE96062C71 /* Pods-Rem PostgramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +686,7 @@
 		};
 		2812FDB2222499F500F40444 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDD2187C33B2B5BDDD9A2CB /* Pods-Rem PostgramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
