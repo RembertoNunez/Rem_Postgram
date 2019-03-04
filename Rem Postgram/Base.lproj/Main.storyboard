@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Rem_Postgram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Rem_Postgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="869.60000000000002" y="219.45812807881774"/>
+            <point key="canvasLocation" x="137" y="209"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="AO3-fw-9FQ">
@@ -125,7 +125,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="408" id="yK4-Wo-Egp" customClass="PostCell" customModule="Rem_Postgram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="408" id="yK4-Wo-Egp" customClass="PostCell" customModule="Rem_Postgram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="408"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yK4-Wo-Egp" id="PwX-au-b4P">
@@ -133,32 +133,30 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xLr-ib-cKg">
-                                                    <rect key="frame" x="8" y="8" width="359" height="363"/>
+                                                    <rect key="frame" x="8" y="8" width="359" height="363.33333333333331"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Wow, I love this photo!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhG-XL-1ff">
-                                                    <rect key="frame" x="59.666666666666657" y="379" width="171" height="20.666666666666686"/>
+                                                    <rect key="frame" x="59.666666666666657" y="379.33333333333331" width="171" height="20.333333333333314"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3F-Bo-yw0">
-                                                    <rect key="frame" x="8" y="379" width="43.666666666666664" height="21"/>
+                                                    <rect key="frame" x="8" y="379.33333333333331" width="43.666666666666664" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="xLr-ib-cKg" firstAttribute="leading" secondItem="PwX-au-b4P" secondAttribute="leading" constant="8" id="70e-Vw-liW"/>
-                                                <constraint firstItem="w3F-Bo-yw0" firstAttribute="top" secondItem="xLr-ib-cKg" secondAttribute="bottom" constant="8" id="8OZ-On-Ttc"/>
-                                                <constraint firstItem="xLr-ib-cKg" firstAttribute="top" secondItem="PwX-au-b4P" secondAttribute="top" constant="8" id="EYd-Kn-tSl"/>
-                                                <constraint firstAttribute="bottom" secondItem="ZhG-XL-1ff" secondAttribute="bottom" constant="8" id="Wuy-eC-szf"/>
-                                                <constraint firstItem="ZhG-XL-1ff" firstAttribute="top" secondItem="xLr-ib-cKg" secondAttribute="bottom" constant="8" id="bs1-f7-y1K"/>
-                                                <constraint firstItem="w3F-Bo-yw0" firstAttribute="bottom" secondItem="PwX-au-b4P" secondAttribute="bottomMargin" constant="3" id="fPn-fV-uzP"/>
-                                                <constraint firstItem="w3F-Bo-yw0" firstAttribute="leading" secondItem="PwX-au-b4P" secondAttribute="leading" constant="8" id="g8d-ME-ScN"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZhG-XL-1ff" secondAttribute="trailing" constant="20" symbolic="YES" id="hp2-eI-Wcy"/>
-                                                <constraint firstAttribute="trailing" secondItem="xLr-ib-cKg" secondAttribute="trailing" constant="8" id="rbl-Rx-A6l"/>
-                                                <constraint firstItem="ZhG-XL-1ff" firstAttribute="leading" secondItem="w3F-Bo-yw0" secondAttribute="trailing" constant="8" id="xpV-io-UoD"/>
+                                                <constraint firstItem="w3F-Bo-yw0" firstAttribute="top" secondItem="xLr-ib-cKg" secondAttribute="bottom" constant="8" id="172-K2-dIr"/>
+                                                <constraint firstItem="w3F-Bo-yw0" firstAttribute="leading" secondItem="PwX-au-b4P" secondAttribute="leading" constant="8" id="9SZ-97-jnS"/>
+                                                <constraint firstAttribute="trailing" secondItem="xLr-ib-cKg" secondAttribute="trailing" constant="8" id="MlP-FR-BLE"/>
+                                                <constraint firstItem="ZhG-XL-1ff" firstAttribute="leading" secondItem="w3F-Bo-yw0" secondAttribute="trailing" constant="8" id="PTg-RV-Mma"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZhG-XL-1ff" secondAttribute="bottom" constant="8" id="Y0f-xr-4l9"/>
+                                                <constraint firstItem="ZhG-XL-1ff" firstAttribute="top" secondItem="xLr-ib-cKg" secondAttribute="bottom" constant="8" id="bWM-2c-vSt"/>
+                                                <constraint firstItem="xLr-ib-cKg" firstAttribute="top" secondItem="PwX-au-b4P" secondAttribute="top" constant="8" id="ivI-XE-4tT"/>
+                                                <constraint firstItem="xLr-ib-cKg" firstAttribute="leading" secondItem="PwX-au-b4P" secondAttribute="leading" constant="8" id="ue4-GF-Gin"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -174,6 +172,11 @@
                         <viewLayoutGuide key="safeArea" id="JlR-jh-djb"/>
                     </view>
                     <navigationItem key="navigationItem" id="Syy-RI-AXl">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="ycq-hB-WHk">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="nzd-Q4-8CG" id="mCH-7Z-4d7"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="mJ5-k5-sbn">
                             <connections>
                                 <segue destination="bwd-2f-Dh1" kind="presentation" id="Zm9-rk-AqJ"/>
@@ -243,7 +246,7 @@
         <!--Navigation Controller-->
         <scene sceneID="ttS-Sb-YZe">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7wd-1h-JSz" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavController" automaticallyAdjustsScrollViewInsets="NO" id="7wd-1h-JSz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Aq3-Tt-PxH">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
