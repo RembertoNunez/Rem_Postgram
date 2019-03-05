@@ -17,6 +17,7 @@
 		2812FDB62224A92200F40444 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDB52224A92200F40444 /* FeedViewController.swift */; };
 		2812FDB82224BF4300F40444 /* CamaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FDB72224BF4300F40444 /* CamaraViewController.swift */; };
 		2819EC4322274BD100EBE660 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819EC4222274BD100EBE660 /* PostCell.swift */; };
+		28B23A03222DE33C001F83DE /* CommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B23A02222DE33C001F83DE /* CommentViewCell.swift */; };
 		38107AA4E7405A0B6A5AFB45 /* Pods_Rem_PostgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91F9101FC8117B6EF2C7F04 /* Pods_Rem_PostgramUITests.framework */; };
 		9380E6E8972F7C02CEE4D6AF /* Pods_Rem_Postgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1E4FB80D175F75CA1584D5 /* Pods_Rem_Postgram.framework */; };
 		DCB9CEC3220565AE58ACBC99 /* Pods_Rem_PostgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C12058950F069B37DC80E97 /* Pods_Rem_PostgramTests.framework */; };
@@ -57,6 +58,7 @@
 		2812FDB52224A92200F40444 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2812FDB72224BF4300F40444 /* CamaraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraViewController.swift; sourceTree = "<group>"; };
 		2819EC4222274BD100EBE660 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		28B23A02222DE33C001F83DE /* CommentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewCell.swift; sourceTree = "<group>"; };
 		2B1E4FB80D175F75CA1584D5 /* Pods_Rem_Postgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_Postgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDD2187C33B2B5BDDD9A2CB /* Pods-Rem PostgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem PostgramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rem PostgramUITests/Pods-Rem PostgramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		64040ECB2827CAA2B9EDAAF8 /* Pods-Rem PostgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem PostgramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rem PostgramTests/Pods-Rem PostgramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				2812FDB52224A92200F40444 /* FeedViewController.swift */,
 				2812FDB72224BF4300F40444 /* CamaraViewController.swift */,
 				2819EC4222274BD100EBE660 /* PostCell.swift */,
+				28B23A02222DE33C001F83DE /* CommentViewCell.swift */,
 			);
 			path = "Rem Postgram";
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -370,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B23A03222DE33C001F83DE /* CommentViewCell.swift in Sources */,
 				2812FDB42224A90700F40444 /* LoginViewController.swift in Sources */,
 				2812FDB82224BF4300F40444 /* CamaraViewController.swift in Sources */,
 				2812FDB62224A92200F40444 /* FeedViewController.swift in Sources */,
