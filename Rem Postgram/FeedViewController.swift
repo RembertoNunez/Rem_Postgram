@@ -22,7 +22,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         commentBar.inputTextView.placeholder = "Add a comment..."
         commentBar.sendButton.title = "Post"
         commentBar.delegate = self
@@ -109,10 +108,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
             
             let user = post["author"] as! PFUser
+            
             cell.usernameLabel.text = user.username
-            
-            cell.captionLabel.text = post["caption"] as! String
-            
+            cell.captionLabel.text = post["caption"] as? String
+    
             let imageFile = post["image"] as! PFFileObject
             let urlString = imageFile.url!
             let url = URL(string: urlString)!
@@ -143,7 +142,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let post = posts[indexPath.section]
         
         let comments = (post["comments"] as? [PFObject]) ?? []
-        
         if indexPath.row == comments.count + 1 {
             showsCommentBar = true
             becomeFirstResponder()
